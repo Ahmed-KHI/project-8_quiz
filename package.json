@@ -1,0 +1,21 @@
+{
+  "name": "project08-trivia-quiz",
+  "version": "1.0.0",
+  "description": "This TypeScript code creates a quiz app that uses text. It allows users to personalize their profiles by entering their name. Answer ten trivia questions using multiple-choice answers. Get instant feedback on their answers (correct or incorrect, with the correct answer highlighted). At the end of the quiz, they will receive their final score.",
+  "main": "quiz.js",
+  "type": "module",
+  "bin": "quiz.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Text-based quiz","TypeScript","Inquirer.js","Chalk","Open Trivia Database (OTDB) API","Multiple-choice questions","User interaction","Real-time feedback","Final score display"],
+  "author": "Mirza Muhammad Ahmed (00263838)",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.19"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
